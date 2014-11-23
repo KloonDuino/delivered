@@ -1,3 +1,6 @@
+composer.lock
+phpunit.xml.dist
+.editorconfig
 /vendor/*
 /config/app.php   
 /tmp/*                
