@@ -7,20 +7,8 @@ A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.0.
 
 This is an unstable repository and should be treated as an alpha.
 
-## Installation
+## Purpose
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist -s dev cakephp/app [app_name]`.
+With this application you will be able to keep track of shipments from e-bay and from banggood. It will be possible to add other suppliers in an easy manner.
+Up-to-date information is aquired from the csv exports of the suppliers (Paypal for e-bay).
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist -s dev cakephp/app [app_name]
-```
-
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
